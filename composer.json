@@ -1,0 +1,22 @@
+{
+    "name": "noylecorp/urlmgr",
+    "description": "Laravel package for managing external URLs for your application",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick Boyle",
+            "email": "nsboyle@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Noylecorp\\Url\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "~5.1",
+        "php" : ">=5.5.9",
+    }
+}
